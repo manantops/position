@@ -1,0 +1,118 @@
+<!-- absolute 
+relative 
+fixed 
+sticky 
+static -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav {
+            background-color: black;
+            width: 100%;
+            padding: 20px;
+            position: fixed;
+            top: 0;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            padding: 20px;
+        }
+
+        a:hover {
+            background-color: whitesmoke;
+            color: black;
+            text-decoration: underline;
+        }
+
+        .img {
+            margin: 20px;
+        }
+
+        .img-01 {
+            margin: 20px;
+            margin-top: 60px;
+        }
+
+        img {
+            margin-right: 20px;
+            height: 200px;
+            width: 220px;
+        }
+
+        .xyz {
+
+            height: 200px;
+
+            background-image: url(01.jpg);
+            background-repeat: no-repeat;
+
+        }
+
+        .xyz:hover {
+
+            background-image: url(05.jpg);
+
+        }
+
+       
+    </style>
+</head>
+
+
+<body>
+    <nav class="nav"> 
+        <a href="#"> HOME </a>
+        <a href="#"> ABOUT </a>
+        <a href="#"> CONTACT </a>
+        <a href="#"> LOGIN </a>
+        <a href="#"> LOGOUT </a>
+    </nav>
+
+
+    <div class="img-01">
+        <img  src="01.jpg" >
+        <img src="02.jpg">
+        <img src="03.jpg">
+        <img src="04.jpg">
+        <img src="05.jpg">
+    </div>
+
+    <div class="img">
+        <img src="01.jpg" >
+        <img src="02.jpg">
+        <img src="03.jpg">
+        <img src="04.jpg">
+        <img src="05.jpg">
+    </div>
+
+    <div class="img">
+        <img src="01.jpg" >
+        <img src="02.jpg">
+        <img src="03.jpg">
+        <img src="04.jpg">
+        <img src="05.jpg">
+    </div>
+
+    <div class="img">
+        <img src="01.jpg" >
+        <img src="02.jpg">
+        <img src="03.jpg">
+        <img src="04.jpg">
+        <img src="05.jpg">
+    </div>
+</body>
+</html>
